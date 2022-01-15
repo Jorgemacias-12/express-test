@@ -1,0 +1,26 @@
+{
+  "name": "express-test",
+  "version": "0.0.1",
+  "description": "Learning how to use express ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorgemacias-12/express-test.git"
+  },
+  "author": "JAMZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorgemacias-12/express-test/issues"
+  },
+  "homepage": "https://github.com/Jorgemacias-12/express-test#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
