@@ -52,20 +52,34 @@ a.link:hover {
     text-decoration: underline;
 }
 
-section.section#info {
-    color: var(--text-fg);
+section.section{
     height: auto;
-    /* background-color: blue; */
     padding: 20px;
 }
 
 h2.section-title {
     text-align: center;
     font-size: 40px;
+    color: var(--text-fg);
 }
 
 p.text {
+    color: var(--text-fg);
+    text-align: justify;
     font-size: 1.2rem;
     font-weight: 300;
     margin: 10px;
+}
+
+section.section#grid-test {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(10, auto);
+    gap: 10px;
+}
+
+img.image {
+    width: 150px;
+    height: 150px;
+    border: 0px;
 }
