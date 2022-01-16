@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Jorgemacias-12/express-test#readme",
   "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.2"
   },
   "devDependencies": {
